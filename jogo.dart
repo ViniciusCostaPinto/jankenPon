@@ -48,7 +48,7 @@ class _JogoState extends State<Jogo> {
     }
     // Validação do ganhador
     if(
-      (escolhaUsuario == "pedra" && escolhaApp == "tesoura") ||
+      (escolhaUsuario == "pedra" &&  escolhaApp == "tesoura") ||
       (escolhaUsuario == "tesoura" && escolhaApp == "papel") ||
       (escolhaUsuario == "papel" && escolhaApp == "pedra")
     ) {
